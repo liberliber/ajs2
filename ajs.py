@@ -100,7 +100,7 @@ def bot(op):
                 cl.acceptGroupInvitation(op.param1)
 
         if op.type == 13:
-            if op.param2 not in Bots:
+            if op.param2 not in owner:
                 try:
                     cl.cancelGroupInvitation(op.param1,[op.param3])
                 except:
