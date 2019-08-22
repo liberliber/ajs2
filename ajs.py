@@ -16,7 +16,7 @@ cl.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 poll = LinePoll(cl)
 call = cl
-owner = ["ud296655acef67cbd5e8208e63629f78b"]
+owner = ["u51e83666117c1daf018ac57e28ea53f0","u868f18020f65c1887fba07cbf44cb1d5"]
 admin = ["ud296655acef67cbd5e8208e63629f78b"]
 mid = cl.getProfile().mid
 
